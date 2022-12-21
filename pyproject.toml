@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "second-order-transformers"
+version = "0.1.0"
+description = ""
+authors = ["Jarkko Lagus <jalagus@gmail.com>"]
+readme = "README.md"
+packages = [{include = "second_order_transformers"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = "^4.25.1"
+torch = "^1.13.1"
+sentence-transformers = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
